@@ -1,0 +1,209 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  max-width:100%;
+}
+
+
+.title{
+  height: auto;
+  width: auto;
+  max-width: 520px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  padding-bottom: .5px;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align:center;
+  font: 14px Verdana, sans-serif;
+  border-radius: 10px 10px 10px 10px;
+  background-color:#2F4562;
+  border: 3px solid #767D92; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#signInButton{
+  background-color: #091C32;
+  margin: 10px;
+  margin-left: 30%;
+  margin-right:30% ;
+  padding: 7px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Font Designs */
+h1 {
+  color: #767D92;
+  margin-top: 2px;
+}
+h2 {
+  font: 20px Verdana, sans-serif;
+}
+h3 {
+  color:#767D92;
+  font: 19px Verdana, sans-serif;
+  white-space: nowrap
+}
+h4 {
+  color:#506680;
+  font: 15px Verdana, sans-serif;
+  /* white-space: nowrap */
+}
+a  {
+  color:#506680;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.songname{
+ border: 3px solid white;
+}
+
+.card{
+  height:auto;
+  width:auto;
+  max-height:750px;
+  max-width: 500px;
+  display: flex;
+  margin: auto;
+  text-align:center;
+  justify-content: center;
+    position: relative;
+  padding-top:20px;
+  padding-left: 10px;
+  padding-right: 10px ;
+  padding-bottom:40px;
+  background-color:#2F4562;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid #767D92; 
+}
+.song{
+  /* border: 3px solid white; */
+}
+
+#albumImage:hover{
+  background-color:#2B2B2B;
+  transform:translate(0px,-10px);
+}
+#albumImage{
+  border: 3px solid #767D92;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px 10px 10px 10px;
+  transition: transform 2s; 
+  position:relative;
+  
+  
+}
+.infoCard{
+  width: auto;
+  max-width: 350px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  background-color:#091C32;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ /* border: 3px solid red; */
+  
+}
+.icons{
+  width:60px;
+  position: relative;
+  transform:translate(-500%,450%);
+}
+button{
+  width:40px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.song{
+  color: #506680;
+  width: 70%;
+}
+
+/* Buttons */
+.container {
+  display: flex;
+  margin: auto;
+  align-self: center;
+  width: 50%;
+  /* border: 3px solid blue; */
+}
+.thumbsUp,.thumbsDown{
+  flex-basis: 100px;
+  margin: 5px;
+  background-color:#091C32;
+  border-radius: 10px 10px 10px 10px;
+  transition: transform 2s;
+  
+  /* Make emojis unselectable */
+-webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+  
+}
+/* Button Effects*/
+.thumbsDown:active{
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbsUp:active{
+ box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown{
+  align-self: center;
+    position: absolute;
+  padding-top: 0px;
+  padding: 3px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 5px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 50%;
+ /* border: 3px solid #8AC007; */
+  width: auto;
+  background-color:#091C32;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #a2c6ee;
+
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #a2c6ee;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#spimage{
+  width:100px;
+  padding-bottom:10px;
+})
+
+#forward,#backward{
+  margin:auto;
+  width: 25%;
+  text-align: center;
+  padding:20px;
+}
+
+.navigation{
+  margin:-17px;
+  padding: -1px;
+ /* border: 3px solid #8AC007; */
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="shuffle.png">
+        <meta charset="utf-8">
+        <title>Spotify Shuffle</title>
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='javascript/index.js'></script>
+    </head>
+    
+    <body style="background-color: #081B33">
+        <div class="title">
+            <h1>Spotify Shuffle</h1>
+            <h3 id="authors" style="margin-top: -17px ">Made by Andrew and Zayd
+            </h3>
+        
+            <h4 hidden=true id="subText" style="margin-top: -16px">APCSP - Final
+            </h4>
+            <% if(!auth) {%>
+                 <a href="/login" style="text-decoration: none">
+                   <div id="signInButton">
+                     Login With Spotify</a>
+                    </div>
+            <%}%>
+            <img id='spimage' src='./spotify.png'>  
+        </div>
+    
+              
+        <% if(auth) {%>
+            <div class="card">
+                <div class="song">
+                    <a id="songLink" href="<%=songLinks[0]%>" target="_blank"><img src=<%=images[0]%> id="albumImage" class="song"></a>
+                    <h3 id='songName' style= "overflow: hidden; text-overflow: ellipsis; word-wrap: break-word;overflow: hidden; text-overflow: ellipsis; word-wrap: break-word;"><%=songNames[0]%></h3>
+                    <h4 id='songArtist' style= "overflow: hidden; text-overflow: ellipsis; word-wrap: break-word;"><%=artists[0]%></h4>   
+                    <div class="container">
+                      <button id='thumbsDownButton' onclick='changeSong(0,0);' class='thumbsDown'>
+                        <div class="thumbsDown" style="font-size: 150px;">
+                            <h2>👎</h2>
+                        </div>
+                      </button>
+                      <button id='thumbsUpButton' onclick='changeSong(0,1);' class='thumbsUp'>
+                        <div class="thumbsUp" style="font-size: 150px;">
+                          <h2>👍</h2>
+                        </div>
+                      </button>
+                    </div>
+                    <div id=audioPlayer>
+                        <audio id='audioElement'noplaybackrate controlsList="nodownload" src="<%=previews[0]%>" controls autoplay="true"></audio>
+                    </div>
+                <div class='navigation'>
+                  <button id='backward' onclick='changeSong(1,0);'><h3><</h3></button>
+                  <button id='forward' onclick='changeSong(0,0);'><h3>></h3></button>
+                </div>
+                </div>
+                
+                <div class='dropdown'>
+                    <select id='userPlaylists'>
+                    </select>
+                </div>
+            </div>
+          <%}%>
+
+        </body>
+
+</html>
