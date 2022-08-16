@@ -27,7 +27,7 @@ cd Spotify-Shuffle-main
 npm install
 ```
 
-###Setup Spotify API
+### Setup Spotify API
  1. Open up https://developer.spotify.com/dashboard and click "Create An App"
  2. Fill in basic app details.
  3. Copy Client ID and Client Secret for next steps
@@ -41,7 +41,7 @@ npm install
  3. Change client secret to the one provided by spotify (line 24)
  4. Change mongodb uri (line 28)
 
-###. Edit other files
+### Edit other files
  1. Change secret key to anything (line 6 crypto.js)
  2. Change official_url (line 13 in www/javascript/index.js)
 
