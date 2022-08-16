@@ -34,9 +34,14 @@ npm start
 ```
   Navigate to `http://localhost:8000`
 
-- API endpoints
+- API endpoints (in order of authorization/program flow)
  
-  swagger Spec Endpoint : http://localhost:8000/getUser 
+  Main interface Endpoint : http://localhost:8000/getUser 
  
-  swagger-ui  Endpoint : http://localhost:8000/
-
+  Authorization Endpoint : http://localhost:8000/login
+  
+  Spotify Api Callback Endpoint : http://localhost:8000/callback
+  
+  Authorization Cookie Retrieval Endpoint: http://localhost:8000/set/cookie1_name/cookie1_value/cookie2_name/cookie2_value
+  
+  Spotify Add Song to Playlist Endpoint: http://localhost:8000/Playlist_ID/Song_ID
