@@ -27,31 +27,31 @@ cd Spotify-Shuffle-main
 npm install
 ```
 
-1. Setup Spotify API
+###Setup Spotify API
  1. Open up https://developer.spotify.com/dashboard and click "Create An App"
  2. Fill in basic app details.
  3. Copy Client ID and Client Secret for next steps
  4. Add a redirect URI
  ![Recording 2022-08-16 at 01 58 53](https://user-images.githubusercontent.com/26662362/184817093-0ac51ce4-21b7-4b98-8dd0-70ddeaba1c8c.gif)
- 5 (optional). If you'd like to allow friends (other accounts besides the developer account) to use the app: Click on "Users And Access" then on "Add New User" in order to add their account information.
+ 5. (optional). If you'd like to allow friends (other accounts besides the developer account) to use the app: Click on "Users And Access" then on "Add New User" in order to add their account information.
 
-2. Edit index.js 
+### Edit index.js 
  1. Change redirect uri to your callback url (line 22)
  2. Change client id to the one provided by spotify (line 23)
  3. Change client secret to the one provided by spotify (line 24)
  4. Change mongodb uri (line 28)
 
-3. Edit other files
+###. Edit other files
  1. Change secret key to anything (line 6 crypto.js)
  2. Change official_url (line 13 in www/javascript/index.js)
 
-4. Run the project
+### Run the project
 ```
 node index.js
 ```
   Navigate to `http://localhost:8000`
 
-### API endpoints (in order of authorization/program flow)
+## API endpoints (in order of authorization/program flow)
  
   Main interface Endpoint : http://localhost:8000/getUser 
  
@@ -63,7 +63,7 @@ node index.js
   
   Spotify Add Song to Playlist Endpoint: http://localhost:8000/Playlist_ID/Song_ID
   
- ### TO DO
+ ## TO DO
  - [] Stylize UI to comply with spotify guidelines
  - [] Continually fetch reccomendations without refreshing page
  - [] Advanced Song Reccomendations based on user input
