@@ -23,6 +23,14 @@ git clone  https://github.com/Zaydo123/Spotify-Shuffle/
 cd Spotify-Shuffle-main
 npm install
 ```
+
+- Spotify Api Setup
+1. Open up https://developer.spotify.com/dashboard and click "Create An App"
+2. Fill in basic app details.
+3. Copy Client ID and Client Secret for next steps
+4. ![a9b24034-ff1e-4a0f-9984-705badc4871c](https://user-images.githubusercontent.com/26662362/184812832-9a52e79b-7f74-4be4-ab7a-4fdf2b73afc3.gif)
+5. If you'd like to allow friends (other accounts besides the developer account) to use the app: Click on "Users And Access" then on "Add New User" in order to add their account information.
+
 - Edit index.js 
  1. Change redirect uri (line 22)
  2. Change client id (line 23)
@@ -32,12 +40,6 @@ npm install
 - Edit other files
  1. Change secret key (line 6 crypto.js)
  2. Change official_url (line 13 in www/javascript/index.js)
-
-- Spotify Api Setup
-1. Open up https://developer.spotify.com/dashboard and click "Create An App"
-2. Fill in basic app details. <img width="524" alt="Screen Shot 2022-08-16 at 1 17 52 AM" src="https://user-images.githubusercontent.com/26662362/184811025-4e93a887-0225-4a6b-9201-a3afbfbdbad4.png">
-3.
-
 
 - Run the project
 ```
