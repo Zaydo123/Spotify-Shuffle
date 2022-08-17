@@ -11,6 +11,9 @@ This is the basic program flow:
 3. Select the playlist you'd like to append to
 4. Like to add to playlist, Dislike to skip, or use scrubbing icons to skip through selection
 
+# Demonstration
+![Recording 2022-08-17 at 00 26 08](https://user-images.githubusercontent.com/26662362/185041432-0cb30883-4aa1-4dae-88b6-d0eff53f8455.gif)
+
  
 # Pre-requisites
 - Install [Node.js](https://nodejs.org/en/) version 16.0.0+
