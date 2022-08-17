@@ -1,4 +1,5 @@
 # Spotify-Shuffle
+## Collaborative effort by - [Zayd Alzein]('https://github.com/Zaydo123) and - [Andrew Isenhart]('https://github.com/aisenhart')
 
 If you've ever had trouble making playlists or are just too lazy, look no further than Spotify Shuffle. Initially conceptualized as a student project for a highschool CS class, a friend and I made it a real thing. Rather than having to go through extensive terms, design guidelines, and etc, we opted in to just open sourcing the project for others to run. 
 
