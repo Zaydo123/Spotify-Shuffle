@@ -1,5 +1,7 @@
 # Spotify-Shuffle
 
+`note on 1/30/2024` - I wish I knew about environment variables back when I wrote this 🤣
+
 If you've ever had trouble making playlists or are just too lazy, look no further than Spotify Shuffle. Initially conceptualized as a student project for a high school CS class, a friend and I made it real. Rather than having to go through extensive terms, design guidelines, and etc, we opted in to just open sourcing the project for others to run. 
 
 The project reads your most listened-to songs, chooses one of the songs, chooses one of the artists, selects a random genre, and uses these as arguments to the Spotify recommendation algorithm. The program does all this to ensure a new listening experience for you.
