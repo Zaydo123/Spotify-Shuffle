@@ -1,20 +1,8 @@
 # Spotify-Shuffle
 
-If you've ever had trouble making playlists or are just too lazy, look no further than Spotify Shuffle. Initially conceptualized as a student project for a highschool CS class, a friend and I made it a real thing. Rather than having to go through extensive terms, design guidelines, and etc, we opted in to just open sourcing the project for others to run. 
+If you've ever had trouble making playlists or are just too lazy, look no further than Spotify Shuffle. Initially conceptualized as a student project for a high school CS class, a friend and I made it real. Rather than having to go through extensive terms, design guidelines, and etc, we opted in to just open sourcing the project for others to run. 
 
-The project reads your most listened to songs, chooses one of the songs, chooses one of the artists, selects a random genre, and uses these as arguments to the spotify reccomendation algorithm. The program does all this to ensure a new listening experience for you.
-
-***
-
-**Collaborative effort by [Zayd Alzein](https://github.com/Zaydo123) and [Andrew Isenhart](https://github.com/aisenhart)**
-
-<p float='center'>
- <a href='https://github.com/Zaydo123'><img src="https://user-images.githubusercontent.com/26662362/185042773-b46e7806-015e-4a0b-9158-552f39f62d79.png" alt="Zayd Alzein" width=200px></a>
- &nbsp; &nbsp; &nbsp; &nbsp;
- <a href='https://github.com/aisenhart'> <img src="https://user-images.githubusercontent.com/26662362/185042974-871833db-8a14-4450-befe-d0ffb1e48467.png" alt="Andrew Isenhart" width=200px></a>
-</p>
-
-***
+The project reads your most listened-to songs, chooses one of the songs, chooses one of the artists, selects a random genre, and uses these as arguments to the Spotify recommendation algorithm. The program does all this to ensure a new listening experience for you.
 
 
 Basic Program Flow:
